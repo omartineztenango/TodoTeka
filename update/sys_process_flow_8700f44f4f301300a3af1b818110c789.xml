@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_177089_todoteka_solicitudes_todoteka">state=2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Solicitado</label>
+        <name>Solicitado</name>
+        <order>20</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-16 16:24:14</sys_created_on>
+        <sys_id>8700f44f4f301300a3af1b818110c789</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Solicitado</sys_name>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sys_process_flow_8700f44f4f301300a3af1b818110c789</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-16 16:24:14</sys_updated_on>
+        <table>x_177089_todoteka_solicitudes_todoteka</table>
+    </sys_process_flow>
+</record_update>

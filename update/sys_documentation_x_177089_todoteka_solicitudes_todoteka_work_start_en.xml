@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="work_start" label="Cuándo se requiere" language="en" table="x_177089_todoteka_solicitudes_todoteka">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>work_start</element>
+            <help/>
+            <hint/>
+            <label>Cuándo se requiere</label>
+            <language>en</language>
+            <name>x_177089_todoteka_solicitudes_todoteka</name>
+            <plural>Cuándo se requieres</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-16 16:13:22</sys_created_on>
+            <sys_id>6aad28cb4f301300a3af1b818110c71f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cuándo se requiere</sys_name>
+            <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+            <sys_update_name>sys_documentation_x_177089_todoteka_solicitudes_todoteka_work_start_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-16 16:13:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
