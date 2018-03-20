@@ -8,10 +8,10 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_177089_todoteka_solicitudes_todoteka</collection>
-        <condition table="x_177089_todoteka_solicitudes_todoteka">state=1^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        <condition table="x_177089_todoteka_solicitudes_todoteka">state=2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
-        <content_type>text/html</content_type>
+        <content_type>multipart/mixed</content_type>
         <default_interval/>
         <description/>
         <digest_from/>
@@ -41,15 +41,19 @@
         <message_html><![CDATA[<p>El usuario: ${sys_created_by} solicita: ${articulo}</p>
 <p>para la fecha: ${work_start}</p>
 <p>N&uacute;mero de reporte: ${number}</p>]]></message_html>
-        <message_list/>
-        <message_text/>
+        <message_list>dc474a404fc11300a3af1b818110c74e</message_list>
+        <message_text><![CDATA[El usuario: ${sys_created_by} solicita: ${articulo}
+
+para la fecha: ${work_start}
+
+Número de reporte: ${number}]]></message_text>
         <name>Nueva Solicitud</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
         <recipient_fields/>
         <recipient_groups/>
-        <recipient_users>46379a1a4f701300a3af1b818110c781,emmanueloctaviomc@gmail.com</recipient_users>
+        <recipient_users>46379a1a4f701300a3af1b818110c781,qkst117@gmail.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
         <sms_alternate/>
@@ -62,7 +66,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9e24b4cf4f301300a3af1b818110c773</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Nueva Solicitud</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
@@ -70,7 +74,7 @@
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sysevent_email_action_9e24b4cf4f301300a3af1b818110c773</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-16 17:30:03</sys_updated_on>
+        <sys_updated_on>2018-03-20 01:44:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>

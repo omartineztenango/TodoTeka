@@ -54,15 +54,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-16 16:06:57</sys_created_on>
-        <sys_id>790c248b4f301300a3af1b818110c7ac</sys_id>
+        <sys_id>4b95c68c4f811300a3af1b818110c747</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Artículo</sys_name>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_dictionary_x_177089_todoteka_solicitudes_todoteka_articulo</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-16 16:06:57</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-03-20 01:11:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
