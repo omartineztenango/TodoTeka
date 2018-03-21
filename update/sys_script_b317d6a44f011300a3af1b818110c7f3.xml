@@ -31,28 +31,31 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
 	var rightNow = new GlideDateTime();
-	current.work_start = rightNow.getLocalDate()();
+	current.work_start = rightNow.getDisplayValue();
 	rightNow.addDaysLocalTime(1);
-	current.work_end = rightNow.getLocalDate();
+	current.work_end = rightNow.getDisplayValue();
+	gs.addInfoMessage("Se estableció fecha de devolución");
+
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
-        <sys_created_by>evelyn</sys_created_by>
-        <sys_created_on>2018-03-20 23:07:14</sys_created_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-21 15:47:02</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>3d72f61c4f4d1300a3af1b818110c700</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_id>b317d6a44f011300a3af1b818110c7f3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>FechaDeDevolucion</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
-        <sys_update_name>sys_script_3d72f61c4f4d1300a3af1b818110c700</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-21 04:25:50</sys_updated_on>
+        <sys_update_name>sys_script_b317d6a44f011300a3af1b818110c7f3</sys_update_name>
+        <sys_updated_by>evelyn</sys_updated_by>
+        <sys_updated_on>2018-03-21 15:58:30</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=3d72f61c4f4d1300a3af1b818110c700"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=b317d6a44f011300a3af1b818110c7f3"/>
 </record_update>

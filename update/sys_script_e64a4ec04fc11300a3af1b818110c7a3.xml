@@ -9,7 +9,7 @@
         <action_update>false</action_update>
         <active>true</active>
         <add_message>false</add_message>
-        <advanced>false</advanced>
+        <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
         <collection>x_177089_todoteka_solicitudes_todoteka</collection>
@@ -32,7 +32,18 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	// Add your code here
+	var rightnow = new GlideDateTime();
+	// Create a GlideDateTime object for the When needed date
+	var whenNeeded = new GlideDateTime(current.work_start);
+
+	// If the When needed date is before rightnow, do not write the record to the database
+	// Output an error message to the screen
+	if(whenNeeded.before(rightnow)){
+		gs.addErrorMessage("La solicitud no puede estar en el pasado, su requerimiento no ha sido guardado.");
+		current.setAbortAction(true);
+	} else {
+		current.state = 2;
+	}
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -41,16 +52,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e64a4ec04fc11300a3af1b818110c7a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>ChangeStateToSolicitado</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_script_e64a4ec04fc11300a3af1b818110c7a3</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-20 01:42:58</sys_updated_on>
-        <template>state=2^EQ</template>
+        <sys_updated_by>evelyn</sys_updated_by>
+        <sys_updated_on>2018-03-21 16:04:56</sys_updated_on>
+        <template/>
         <when>before</when>
     </sys_script>
     <sys_translated_text action="delete_multiple" query="documentkey=e64a4ec04fc11300a3af1b818110c7a3"/>
