@@ -16,25 +16,25 @@
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() { //Se ejecuta cuando el estado no es nuevo
 	//se hace visible para que el administrador pueda modificarlo
-	if(g_user.hasRole('x_177089_todoteka.administradores')){
+	/*if(g_user.hasRole('x_177089_todoteka.administradores')){
 		g_form.setVisible('state',true); 
 	}else{
 		g_form.setVisible('state',false);
-	}
+	}*///NOTA: ya no se requiere de estas líneas porque se crearon botones UI action que facilitan el cambio de los estados.
 	
-	if(g_form.getIntValue('state') == 5){
-		g_form.setVisible('work_end',true);
+	if(g_form.getIntValue('state') == 5){//Si el artículo está en préstamo
+		g_form.setVisible('work_end',true); //Hace visible la fecha de devolución
 	} else {
 		g_form.setVisible('work_end',false);
 	}
 	
-	g_form.setReadOnly('articulo',true);
-	g_form.setReadOnly('work_start', true);
+	g_form.setReadOnly('articulo',true);//establece los campos artículo 
+	g_form.setReadOnly('work_start', true); //y 'cuando se requiere'como "Sólo lectura"
 }]]></script_false>
         <script_true><![CDATA[function onCondition() { //Se ejecuta cuando el estado es nuevo
 	if(g_form.isNewRecord() == true){  //si el estado es realmente nuevo
-		g_form.setVisible('state',false);
-		g_form.setVisible('work_end',false);
+		//g_form.setVisible('state',false); ya no está el campo estado por los 
+		g_form.setVisible('work_end',false); //botones UI action
 	}
 	else{ //De lo contrario significa que el admin quiere poner una solicitud ya creada como nueva
 		alert('La solicitud no puede ser nueva otra vez!!');
@@ -49,15 +49,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8ae6ae044f051300a3af1b818110c7a2</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Permite que el administrador modifique el estado del reporte</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_ui_policy_8ae6ae044f051300a3af1b818110c7a2</sys_update_name>
-        <sys_updated_by>evelyn</sys_updated_by>
-        <sys_updated_on>2018-03-21 20:06:08</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-21 23:33:53</sys_updated_on>
         <table>x_177089_todoteka_solicitudes_todoteka</table>
         <ui_type>10</ui_type>
         <view/>
