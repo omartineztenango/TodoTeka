@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-03-21 15:19:15">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>x_177089_todoteka.administradores</read_roles>
+        <roles>x_177089_todoteka.administradores</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>evelyn</sys_created_by>
+        <sys_created_on>2018-03-20 22:34:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>093bea944f4d1300a3af1b818110c71f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TodoTeka</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sys_portal_page_093bea944f4d1300a3af1b818110c71f</sys_update_name>
+        <sys_updated_by>evelyn</sys_updated_by>
+        <sys_updated_on>2018-03-20 22:34:53</sys_updated_on>
+        <title>TodoTeka</title>
+        <user/>
+        <view/>
+    </sys_portal_page>
+</record_update>

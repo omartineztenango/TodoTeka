@@ -4,25 +4,23 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <condition table="x_177089_todoteka_solicitudes_todoteka">state=1^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
-        <description>Permite a los usuario llenar el formulario cuando hacen una solicitud</description>
+        <condition/>
+        <description>Default access control on x_177089_todoteka_solicitudes_todoteka</description>
         <name>x_177089_todoteka_solicitudes_todoteka</name>
-        <operation display_value="write">write</operation>
+        <operation display_value="delete">delete</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-20 02:44:21</sys_created_on>
-        <sys_id>db9a564c4fc11300a3af1b818110c7cf</sys_id>
+        <sys_created_on>2018-03-21 03:59:50</sys_created_on>
+        <sys_id>8ab5b3544f015300a3af1b818110c7d9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_177089_todoteka_solicitudes_todoteka</sys_name>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
-        <sys_update_name>sys_security_acl_db9a564c4fc11300a3af1b818110c7cf</sys_update_name>
+        <sys_update_name>sys_security_acl_8ab5b3544f015300a3af1b818110c7d9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-20 02:44:21</sys_updated_on>
+        <sys_updated_on>2018-03-21 03:59:50</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>

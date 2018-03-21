@@ -4,77 +4,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">55cb968c4fc11300a3af1b818110c728</list_id>
+            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">62a762144f4d1300a3af1b818110c78f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-20 02:48:22</sys_created_on>
-            <sys_id>91cbda8c4fc11300a3af1b818110c781</sys_id>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-20 22:18:49</sys_created_on>
+            <sys_id>e6a762144f4d1300a3af1b818110c78f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-20 02:48:22</sys_updated_on>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-20 22:18:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">55cb968c4fc11300a3af1b818110c728</list_id>
+            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">62a762144f4d1300a3af1b818110c78f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-20 02:48:22</sys_created_on>
-            <sys_id>19cbda8c4fc11300a3af1b818110c781</sys_id>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-20 22:18:49</sys_created_on>
+            <sys_id>6aa762144f4d1300a3af1b818110c78f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-20 02:48:22</sys_updated_on>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-20 22:18:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>work_start</element>
-            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">55cb968c4fc11300a3af1b818110c728</list_id>
+            <element>articulo.sys_name</element>
+            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">62a762144f4d1300a3af1b818110c78f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-20 02:48:22</sys_created_on>
-            <sys_id>99cbda8c4fc11300a3af1b818110c781</sys_id>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-20 22:18:49</sys_created_on>
+            <sys_id>eaa762144f4d1300a3af1b818110c78f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-20 02:48:22</sys_updated_on>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-20 22:18:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_by</element>
-            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">55cb968c4fc11300a3af1b818110c728</list_id>
+            <element>work_start</element>
+            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">62a762144f4d1300a3af1b818110c78f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-20 02:48:22</sys_created_on>
-            <sys_id>1dcbda8c4fc11300a3af1b818110c781</sys_id>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-20 22:18:49</sys_created_on>
+            <sys_id>6ea762144f4d1300a3af1b818110c78f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-20 02:48:22</sys_updated_on>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-20 22:18:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>comments</element>
-            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">55cb968c4fc11300a3af1b818110c728</list_id>
+            <element>opened_by.first_name</element>
+            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">62a762144f4d1300a3af1b818110c78f</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-20 02:48:22</sys_created_on>
-            <sys_id>9dcbda8c4fc11300a3af1b818110c781</sys_id>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-20 22:18:49</sys_created_on>
+            <sys_id>eea762144f4d1300a3af1b818110c78f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-20 02:48:22</sys_updated_on>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-20 22:18:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_by.location.zip</element>
+            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">62a762144f4d1300a3af1b818110c78f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-20 22:18:49</sys_created_on>
+            <sys_id>62a762144f4d1300a3af1b818110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-20 22:18:49</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>comments</element>
+            <list_id display_value="x_177089_todoteka_solicitudes_todoteka" element="NULL" name="x_177089_todoteka_solicitudes_todoteka" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">62a762144f4d1300a3af1b818110c78f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-20 22:18:49</sys_created_on>
+            <sys_id>e2a762144f4d1300a3af1b818110c790</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-20 22:18:49</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -87,19 +117,19 @@
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-20 02:48:21</sys_created_on>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-20 22:18:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>55cb968c4fc11300a3af1b818110c728</sys_id>
+            <sys_id>62a762144f4d1300a3af1b818110c78f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_177089_todoteka_solicitudes_todoteka</sys_name>
             <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
             <sys_policy/>
             <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
             <sys_update_name>sys_ui_list_x_177089_todoteka_solicitudes_todoteka_null</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-20 02:48:21</sys_updated_on>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-20 22:18:49</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
