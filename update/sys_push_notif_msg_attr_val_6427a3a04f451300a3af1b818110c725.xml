@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_push_notif_msg_attr_val">
+    <sys_push_notif_msg_attr_val action="INSERT_OR_UPDATE">
+        <action display_value="Denegar">df7563a04f451300a3af1b818110c768</action>
+        <calculated_attribute>action_of_denegar</calculated_attribute>
+        <calculated_value>Denegar</calculated_value>
+        <definition display_value="action_of_denegar">069623a04f451300a3af1b818110c7e2</definition>
+        <message display_value="Nueva Solicitud TodoTeka">bb638b2c4fc11300a3af1b818110c711</message>
+        <sys_class_name>sys_push_notif_msg_attr_val</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-21 21:34:45</sys_created_on>
+        <sys_id>6427a3a04f451300a3af1b818110c725</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sys_push_notif_msg_attr_val_6427a3a04f451300a3af1b818110c725</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-21 21:34:45</sys_updated_on>
+        <value/>
+    </sys_push_notif_msg_attr_val>
+</record_update>

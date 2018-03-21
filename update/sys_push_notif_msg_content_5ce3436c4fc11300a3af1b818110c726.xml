@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_push_notif_msg_content">
     <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
-        <name>NotificationTodoTeka</name>
-        <push_app display_value="ServiceNow Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <name>SimpleNotification</name>
+        <push_app display_value="TodoTeka">8a83036c4fc11300a3af1b818110c774</push_app>
         <script><![CDATA[(function buildJSON(/*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
 	var json = {};
 
 	json = {
@@ -13,27 +14,23 @@
 		"record" : {
 			"table" : current.getTableName(),
 			"sys_id" : current.sys_id
-		},
-		"action" : {
-			"button1_text" : attributes.name_of_aprobar,
-			"button1_action" : attributes.action_of_aprobar,
-			"button2_text" : attributes.name_of_denegar,
-			"button2_action" : attributes.action_of_denegar 
 		}
 	};
-	return json;	
+
+	return json;
+
 })(current, message, attributes);]]></script>
         <sys_class_name>sys_push_notif_msg_content</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-20 18:56:57</sys_created_on>
-        <sys_id>6b28b1184fc91300a3af1b818110c7f6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>NotificationTodoTeka</sys_name>
+        <sys_created_on>2018-03-21 19:01:08</sys_created_on>
+        <sys_id>5ce3436c4fc11300a3af1b818110c726</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SimpleNotification</sys_name>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
-        <sys_update_name>sys_push_notif_msg_content_6b28b1184fc91300a3af1b818110c7f6</sys_update_name>
+        <sys_update_name>sys_push_notif_msg_content_5ce3436c4fc11300a3af1b818110c726</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-21 21:32:07</sys_updated_on>
+        <sys_updated_on>2018-03-21 19:01:08</sys_updated_on>
     </sys_push_notif_msg_content>
 </record_update>
