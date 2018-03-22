@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>El evento es accionado cuando un reporte estará atrasado entre las 9am y las 6pm</description>
+        <event_name>x_177089_todoteka.EventRecordatorio</event_name>
+        <fired_by>Schedule Script Execution - ScheduleScriptDevolucionAtrasada</fired_by>
+        <queue/>
+        <suffix>EventRecordatorio</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-22 23:00:44</sys_created_on>
+        <sys_id>68934d014f051300a3af1b818110c7b2</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_177089_todoteka.EventRecordatorio</sys_name>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sysevent_register_68934d014f051300a3af1b818110c7b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-22 23:14:59</sys_updated_on>
+        <table>x_177089_todoteka_solicitudes_todoteka</table>
+    </sysevent_register>
+</record_update>

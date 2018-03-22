@@ -8,19 +8,19 @@
         <description/>
         <label>Artículo regresado</label>
         <name>entregado</name>
-        <order>60</order>
+        <order>70</order>
         <sys_class_name>sys_process_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-16 16:26:43</sys_created_on>
         <sys_id>eb80344f4f301300a3af1b818110c753</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>entregado</sys_name>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_process_flow_eb80344f4f301300a3af1b818110c753</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-16 16:26:43</sys_updated_on>
+        <sys_updated_by>evelyn</sys_updated_by>
+        <sys_updated_on>2018-03-21 23:51:25</sys_updated_on>
         <table>x_177089_todoteka_solicitudes_todoteka</table>
     </sys_process_flow>
 </record_update>

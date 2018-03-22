@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_title">
+    <sys_ui_title action="INSERT_OR_UPDATE">
+        <field_list/>
+        <script><![CDATA[var extras = [];
+	
+var title = " Solicitado por: " + current.getDisplayValue('opened_by');
+
+var extra = "➤ Artículo: " + current.getDisplayValue('articulo');
+extras.push(extra);
+
+extra = "➤ Estado: " + current.getDisplayValue('state');
+extras.push(extra);
+
+titleValues.setTitle(title);
+titleValues.setExtras(extras);
+]]></script>
+        <search_fields>number,state,opened_by,articulo</search_fields>
+        <style_field/>
+        <sys_class_name>sys_ui_title</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-22 15:58:09</sys_created_on>
+        <sys_id>c133a3b44f011300a3af1b818110c7cb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>x_177089_todoteka_solicitudes_todoteka</sys_name>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sys_ui_title_c133a3b44f011300a3af1b818110c7cb</sys_update_name>
+        <sys_updated_by>evelyn</sys_updated_by>
+        <sys_updated_on>2018-03-22 18:29:04</sys_updated_on>
+        <table>x_177089_todoteka_solicitudes_todoteka</table>
+    </sys_ui_title>
+</record_update>

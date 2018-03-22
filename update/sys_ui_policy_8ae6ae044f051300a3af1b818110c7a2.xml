@@ -15,19 +15,15 @@
         <reverse_if_false>true</reverse_if_false>
         <run_scripts>true</run_scripts>
         <script_false><![CDATA[function onCondition() { //Se ejecuta cuando el estado no es nuevo
-	//se hace visible para que el administrador pueda modificarlo
-	/*if(g_user.hasRole('x_177089_todoteka.administradores')){
-		g_form.setVisible('state',true); 
-	}else{
-		g_form.setVisible('state',false);
-	}*///NOTA: ya no se requiere de estas líneas porque se crearon botones UI action que facilitan el cambio de los estados.
 	
-	if(g_form.getIntValue('state') == 5){//Si el artículo está en préstamo
+	if(g_form.getIntValue('state') == 5 || g_form.getIntValue('state') == 6){
+		//Si el artículo está en préstamo
 		g_form.setVisible('work_end',true); //Hace visible la fecha de devolución
 	} else {
 		g_form.setVisible('work_end',false);
 	}
 	
+	g_form.setVisible('state',false);
 	g_form.setReadOnly('articulo',true);//establece los campos artículo 
 	g_form.setReadOnly('work_start', true); //y 'cuando se requiere'como "Sólo lectura"
 }]]></script_false>
@@ -40,6 +36,7 @@
 		alert('La solicitud no puede ser nueva otra vez!!');
 		g_form.setValue('state',2);
 	}
+	g_form.setVisible('state',false);
 }]]></script_true>
         <set_values/>
         <short_description>Permite que el administrador modifique el estado del reporte</short_description>
@@ -49,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8ae6ae044f051300a3af1b818110c7a2</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Permite que el administrador modifique el estado del reporte</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
@@ -57,7 +54,7 @@
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_ui_policy_8ae6ae044f051300a3af1b818110c7a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-21 23:33:53</sys_updated_on>
+        <sys_updated_on>2018-03-22 23:50:59</sys_updated_on>
         <table>x_177089_todoteka_solicitudes_todoteka</table>
         <ui_type>10</ui_type>
         <view/>

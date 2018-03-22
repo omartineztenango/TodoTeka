@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="f69058014f811300a3af1b818110c7f3" sys_domain="global" table="x_177089_todoteka_solicitudes_todoteka" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-22 19:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f9058014f811300a3af1b818110c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177089_todoteka_solicitudes_todoteka" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">f69058014f811300a3af1b818110c7f3</sys_ui_form>
+            <sys_ui_section caption="Información básica" display_value="Información básica" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">942a8c0d4f411300a3af1b818110c70b</sys_ui_section>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-22 19:14:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-22 19:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b9058014f811300a3af1b818110c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_177089_todoteka_solicitudes_todoteka" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">f69058014f811300a3af1b818110c7f3</sys_ui_form>
+            <sys_ui_section caption="Artículo" display_value="Artículo" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">ba9058014f811300a3af1b818110c7f1</sys_ui_section>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-22 19:14:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_177089_todoteka_solicitudes_todoteka</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>evelyn</sys_created_by>
+            <sys_created_on>2018-03-22 19:14:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f69058014f811300a3af1b818110c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_177089_todoteka_solicitudes_todoteka</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f69058014f811300a3af1b818110c7f3</sys_update_name>
+            <sys_updated_by>evelyn</sys_updated_by>
+            <sys_updated_on>2018-03-22 19:14:16</sys_updated_on>
+            <sys_user/>
+            <view display_value="Mobile" name="Mobile">a1717272791203006517636e4f534971</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_ng_action">
+    <sys_ui_ng_action action="INSERT_OR_UPDATE">
+        <action_name>articulo_prestado</action_name>
+        <active>true</active>
+        <color/>
+        <comments/>
+        <condition>current.state == 3 &amp;&amp; gs.getUser().hasRole('x_177089_todoteka.administradores')</condition>
+        <form_button>true</form_button>
+        <form_more_item>false</form_more_item>
+        <hide_when_disabled>true</hide_when_disabled>
+        <hint/>
+        <list_button>false</list_button>
+        <name>Artículo prestado</name>
+        <navigate_back>true</navigate_back>
+        <order>100</order>
+        <script><![CDATA[current.state = 5; //Al estar el artículo en este estado se ejecuta un bussiness rule
+current.update();]]></script>
+        <show_for>update</show_for>
+        <sys_class_name>sys_ui_ng_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-22 18:00:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b2fdf3744f411300a3af1b818110c722</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Artículo prestado</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sys_ui_ng_action_b2fdf3744f411300a3af1b818110c722</sys_update_name>
+        <sys_updated_by>evelyn</sys_updated_by>
+        <sys_updated_on>2018-03-22 19:02:48</sys_updated_on>
+        <table>x_177089_todoteka_solicitudes_todoteka</table>
+    </sys_ui_ng_action>
+</record_update>
