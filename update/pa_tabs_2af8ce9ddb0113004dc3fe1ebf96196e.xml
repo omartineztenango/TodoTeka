@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA New Tab">6af8ce9ddb0113004dc3fe1ebf96196c</canvas_page>
+        <name>New Tab</name>
+        <page display_value="PA New Tab">66f8469ddb0113004dc3fe1ebf96195d</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-23 22:38:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2af8ce9ddb0113004dc3fe1ebf96196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>pa_tabs_2af8ce9ddb0113004dc3fe1ebf96196e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-23 22:38:39</sys_updated_on>
+    </pa_tabs>
+</record_update>

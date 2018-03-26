@@ -1,26 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_push_notif_act_script">
     <sys_push_notif_act_script action="INSERT_OR_UPDATE">
-        <name>Denegar</name>
+        <name>Rechazar</name>
         <script><![CDATA[(function runAction(/*Optional GlideRecord*/ current) {
 
-	if(current.getTableName() == "x_177089_todoteka_solicitudes_todoteka") {
-		current.state = "Aprobado";
-		current.update();
-	}
+	current.state = 3;
+	current.update();
 
 })(current);]]></script>
         <sys_class_name>sys_push_notif_act_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-21 21:27:46</sys_created_on>
         <sys_id>df7563a04f451300a3af1b818110c768</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Denegar</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Rechazar</sys_name>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_push_notif_act_script_df7563a04f451300a3af1b818110c768</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-21 21:27:46</sys_updated_on>
+        <sys_updated_on>2018-03-26 19:54:24</sys_updated_on>
     </sys_push_notif_act_script>
 </record_update>

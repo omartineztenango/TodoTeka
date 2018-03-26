@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="pa_dashboards_permissions">
+    <pa_dashboards_permissions action="INSERT_OR_UPDATE">
+        <dashboard display_value="TodoTeka">aaf8469ddb0113004dc3fe1ebf96195b</dashboard>
+        <delete>false</delete>
+        <group display_value="TodoTeka Administradores" name="TodoTeka Administradores">3dd4abaedb3013004dc3fe1ebf961966</group>
+        <identity>3dd4abaedb3013004dc3fe1ebf961966</identity>
+        <read>true</read>
+        <role/>
+        <sys_class_name>pa_dashboards_permissions</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-23 22:45:02</sys_created_on>
+        <sys_id>847a8251db4113004dc3fe1ebf96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3dd4abaedb3013004dc3fe1ebf961966</sys_name>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>pa_dashboards_permissions_847a8251db4113004dc3fe1ebf96191e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-23 22:45:02</sys_updated_on>
+        <type>2</type>
+        <user/>
+        <write>false</write>
+    </pa_dashboards_permissions>
+</record_update>

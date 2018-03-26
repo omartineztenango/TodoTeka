@@ -10,8 +10,8 @@
             <sys_id>0f9058014f811300a3af1b818110c7f5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_177089_todoteka_solicitudes_todoteka" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">f69058014f811300a3af1b818110c7f3</sys_ui_form>
-            <sys_ui_section caption="Información básica" display_value="Información básica" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">942a8c0d4f411300a3af1b818110c70b</sys_ui_section>
+            <sys_ui_form display_value="x_177089_todoteka_solicitudes_todoteka" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="1f236273b8130300651775b34d8f516e">f69058014f811300a3af1b818110c7f3</sys_ui_form>
+            <sys_ui_section caption="Información básica" display_value="Información básica" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="1f236273b8130300651775b34d8f516e">942a8c0d4f411300a3af1b818110c70b</sys_ui_section>
             <sys_updated_by>evelyn</sys_updated_by>
             <sys_updated_on>2018-03-22 19:14:16</sys_updated_on>
         </sys_ui_form_section>
@@ -24,8 +24,8 @@
             <sys_id>0b9058014f811300a3af1b818110c7f6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_177089_todoteka_solicitudes_todoteka" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">f69058014f811300a3af1b818110c7f3</sys_ui_form>
-            <sys_ui_section caption="Artículo" display_value="Artículo" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">ba9058014f811300a3af1b818110c7f1</sys_ui_section>
+            <sys_ui_form display_value="x_177089_todoteka_solicitudes_todoteka" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="1f236273b8130300651775b34d8f516e">f69058014f811300a3af1b818110c7f3</sys_ui_form>
+            <sys_ui_section caption="Artículo" display_value="Artículo" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="1f236273b8130300651775b34d8f516e">ba9058014f811300a3af1b818110c7f1</sys_ui_section>
             <sys_updated_by>evelyn</sys_updated_by>
             <sys_updated_on>2018-03-22 19:14:16</sys_updated_on>
         </sys_ui_form_section>
@@ -48,7 +48,7 @@
             <sys_updated_by>evelyn</sys_updated_by>
             <sys_updated_on>2018-03-22 19:14:16</sys_updated_on>
             <sys_user/>
-            <view display_value="Mobile" name="Mobile">a1717272791203006517636e4f534971</view>
+            <view display_value="Mobile" name="Mobile">1f236273b8130300651775b34d8f516e</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

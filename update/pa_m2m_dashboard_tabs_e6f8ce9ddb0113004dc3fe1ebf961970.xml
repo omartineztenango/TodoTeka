@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="TodoTeka">aaf8469ddb0113004dc3fe1ebf96195b</dashboard>
+        <home>false</home>
+        <homepage display_value="TodoTeka">093bea944f4d1300a3af1b818110c71f</homepage>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-23 22:38:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6f8ce9ddb0113004dc3fe1ebf961970</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>aaf8469ddb0113004dc3fe1ebf96195b</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_e6f8ce9ddb0113004dc3fe1ebf961970</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-23 22:38:40</sys_updated_on>
+        <tab display_value="New Tab">2af8ce9ddb0113004dc3fe1ebf96196e</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>
