@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="" label="Tareas usuarios" language="en" table="x_177089_todoteka_tareas_usuarios">
+    <sys_documentation element="" label="Tareas" language="en" table="x_177089_todoteka_tareas_usuarios">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element/>
             <help/>
             <hint/>
-            <label>Tareas usuarios</label>
+            <label>Tareas</label>
             <language>en</language>
             <name>x_177089_todoteka_tareas_usuarios</name>
-            <plural>Tareas usuarios</plural>
+            <plural>Tareas</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-03-26 16:49:35</sys_created_on>
             <sys_id>1ad51812db4113004dc3fe1ebf9619fc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Tareas usuarios</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Tareas</sys_name>
             <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
             <sys_policy/>
             <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
             <sys_update_name>sys_documentation_x_177089_todoteka_tareas_usuarios__en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-26 16:49:35</sys_updated_on>
+            <sys_updated_on>2018-03-26 23:51:30</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -4,16 +4,16 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-03-26 16:54:16</sys_created_on>
+            <sys_created_on>2018-03-27 01:32:15</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>87e61452db4113004dc3fe1ebf9619c7</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>267dca12db8513004dc3fe1ebf9619d4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_177089_todoteka_solicitudes_todoteka" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="Default view">6395c68c4f811300a3af1b818110c7f4</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="Default view">0fe61452db4113004dc3fe1ebf961907</sys_ui_section>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="Default view">227d8a12db8513004dc3fe1ebf9619e6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-03-26 16:54:16</sys_updated_on>
+            <sys_updated_on>2018-03-27 01:55:02</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_177089_todoteka_solicitudes_todoteka</name>
