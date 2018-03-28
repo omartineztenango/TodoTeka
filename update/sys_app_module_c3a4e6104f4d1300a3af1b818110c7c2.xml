@@ -6,7 +6,8 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="x_177089_todoteka_solicitudes_todoteka">state=5^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="5"/>
+        <filter table="x_177089_todoteka_solicitudes_todoteka">state=2^todoteka_articulo_entregado=true^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="false" field="todoteka_articulo_entregado" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -28,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3a4e6104f4d1300a3af1b818110c7c2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>En prestamo</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_app_module_c3a4e6104f4d1300a3af1b818110c7c2</sys_update_name>
-        <sys_updated_by>evelyn</sys_updated_by>
-        <sys_updated_on>2018-03-20 23:45:07</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 16:39:00</sys_updated_on>
         <timeline_page/>
         <title>En prestamo</title>
         <uncancelable>false</uncancelable>

@@ -46,7 +46,7 @@
         <order>100</order>
         <push_message_only>true</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="TodoTeka Administradores">3dd4abaedb3013004dc3fe1ebf961966</recipient_groups>
+        <recipient_groups name="TodoTeka administradores">f6d7f1aedb0113004dc3fe1ebf96194d</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -60,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>45fdc11adbc113004dc3fe1ebf96196e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Nueva solicitud</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
@@ -68,7 +68,7 @@
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sysevent_email_action_45fdc11adbc113004dc3fe1ebf96196e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 20:56:20</sys_updated_on>
+        <sys_updated_on>2018-03-27 19:14:17</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

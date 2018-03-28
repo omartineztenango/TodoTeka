@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_177089_todoteka_solicitudes_todoteka">state=2^todoteka_articulo_entregado=false^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="false" field="todoteka_articulo_entregado" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Vista de cuando la solicitud se encuentra en "Entrega del artículo"</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 18:37:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f71c7b2db4113004dc3fe1ebf96195a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Vista de cuando la solicitud se encuentra en "Entrega del artículo"</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sys_ui_policy_0f71c7b2db4113004dc3fe1ebf96195a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 19:05:19</sys_updated_on>
+        <table>x_177089_todoteka_solicitudes_todoteka</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

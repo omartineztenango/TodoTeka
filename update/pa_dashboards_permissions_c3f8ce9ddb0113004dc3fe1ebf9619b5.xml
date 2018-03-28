@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="Age of Open Changes Montior">8deff142d7700200b96d45a3ce61032f</dashboard>
+        <dashboard display_value="">8deff142d7700200b96d45a3ce61032f</dashboard>
         <delete>false</delete>
         <group/>
         <identity>pa_viewer</identity>

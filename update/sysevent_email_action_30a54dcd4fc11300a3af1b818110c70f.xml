@@ -8,9 +8,7 @@
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_177089_todoteka_solicitudes_todoteka</collection>
-        <condition table="x_177089_todoteka_solicitudes_todoteka">state=6^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="6"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </condition>
+        <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
         <description/>
@@ -25,13 +23,13 @@
         <digest_template/>
         <digest_text/>
         <digestable>false</digestable>
-        <event_name>approval.cancelled</event_name>
+        <event_name>x_177089_todoteka.SolicitudAtrasada</event_name>
         <event_parm_1>false</event_parm_1>
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
         <from/>
-        <generation_type>engine</generation_type>
+        <generation_type>event</generation_type>
         <importance/>
         <include_attachments>false</include_attachments>
         <item>event.parm1</item>
@@ -60,7 +58,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>30a54dcd4fc11300a3af1b818110c70f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>NotificationDevolucionAtrasada</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
@@ -68,7 +66,7 @@
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sysevent_email_action_30a54dcd4fc11300a3af1b818110c70f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-22 23:39:39</sys_updated_on>
+        <sys_updated_on>2018-03-28 00:19:03</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

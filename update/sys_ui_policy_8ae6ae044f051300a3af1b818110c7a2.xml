@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
-        <active>false</active>
-        <conditions table="x_177089_todoteka_solicitudes_todoteka">state=1^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        <active>true</active>
+        <conditions table="x_177089_todoteka_solicitudes_todoteka">state=1^ORstate=3^sys_created_byISEMPTY^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="3"/>
+            <item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -12,51 +14,34 @@
         <model_table/>
         <on_load>true</on_load>
         <order>100</order>
-        <reverse_if_false>true</reverse_if_false>
-        <run_scripts>true</run_scripts>
+        <reverse_if_false>false</reverse_if_false>
+        <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() { //Se ejecuta cuando el estado no es nuevo
-	
-	if(g_form.getIntValue('state') == 5 || g_form.getIntValue('state') == 6){
-		//Si el artículo está en préstamo
-		g_form.setVisible('work_end',true); //Hace visible la fecha de devolución
-	} else {
-		g_form.setVisible('work_end',false);
-	}
-	
-	g_form.setVisible('state',false);
-	g_form.setReadOnly('articulo',true);//establece los campos artículo 
-	g_form.setReadOnly('work_start', true); //y 'cuando se requiere'como "Sólo lectura"
 }]]></script_false>
-        <script_true><![CDATA[function onCondition() { //Se ejecuta cuando el estado es nuevo
-	if(g_form.isNewRecord() == true){  //si el estado es realmente nuevo
-		//g_form.setVisible('state',false); ya no está el campo estado por los 
-		g_form.setVisible('work_end',false); //botones UI action
-	}
-	else{ //De lo contrario significa que el admin quiere poner una solicitud ya creada como nueva
-		alert('La solicitud no puede ser nueva otra vez!!');
-		g_form.setValue('state',2);
-	}
-	g_form.setVisible('state',false);
+        <script_true><![CDATA[function onCondition() { //Se ejecuta cuando el estado es nuevo o rechazado
+	g_form.setDisplay('work_end',false);
+	g_form.setDisplay('todoteka_articulo_entregado',false);
+	g_form.setDisplay('devuelto',false);
 }]]></script_true>
         <set_values/>
-        <short_description>Permite que el administrador modifique el estado del reporte</short_description>
+        <short_description>Vista de una solicitud nueva</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-20 03:38:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8ae6ae044f051300a3af1b818110c7a2</sys_id>
-        <sys_mod_count>23</sys_mod_count>
-        <sys_name>Permite que el administrador modifique el estado del reporte</sys_name>
+        <sys_mod_count>37</sys_mod_count>
+        <sys_name>Vista de una solicitud nueva</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_ui_policy_8ae6ae044f051300a3af1b818110c7a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 18:21:09</sys_updated_on>
+        <sys_updated_on>2018-03-28 19:05:08</sys_updated_on>
         <table>x_177089_todoteka_solicitudes_todoteka</table>
-        <ui_type>10</ui_type>
+        <ui_type>0</ui_type>
         <view/>
     </sys_ui_policy>
 </record_update>

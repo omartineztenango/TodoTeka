@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"ends":["194fad1edb0513004dc3fe1ebf961964"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
+        <activity_stages>{"ends":["205bdb6edb0513004dc3fe1ebf96195a"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -12,10 +12,10 @@
         </condition>
         <condition_type>run_match</condition_type>
         <description>El proceso que ocurren en la todoteka</description>
-        <expected_sequences>914fad1edb0513004dc3fe1ebf961969,514fad1edb0513004dc3fe1ebf96196a,d54fad1edb0513004dc3fe1ebf961965,594fe91edb0513004dc3fe1ebf96199d,114fad1edb0513004dc3fe1ebf961968,194fad1edb0513004dc3fe1ebf961964</expected_sequences>
+        <expected_sequences>e05bdb6edb0513004dc3fe1ebf961959,685bdb6edb0513004dc3fe1ebf961954,e05bdb6edb0513004dc3fe1ebf96195c,e85bdb6edb0513004dc3fe1ebf96195a,605bdb6edb0513004dc3fe1ebf961958,6c5bdb6edb0513004dc3fe1ebf961952,605bdb6edb0513004dc3fe1ebf961957,666b5f6edb0513004dc3fe1ebf9619e9,b0cb5b6edb0513004dc3fe1ebf9619f3,205bdb6edb0513004dc3fe1ebf96195a</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>914fad1edb0513004dc3fe1ebf961969,514fad1edb0513004dc3fe1ebf96196a,d54fad1edb0513004dc3fe1ebf961965,594fe91edb0513004dc3fe1ebf96199d,114fad1edb0513004dc3fe1ebf961968,994fad1edb0513004dc3fe1ebf961966,194fad1edb0513004dc3fe1ebf961964</full_sequences>
+        <full_sequences>e05bdb6edb0513004dc3fe1ebf961959,685bdb6edb0513004dc3fe1ebf961954,e05bdb6edb0513004dc3fe1ebf96195c,e85bdb6edb0513004dc3fe1ebf96195a,605bdb6edb0513004dc3fe1ebf961958,ec5bdb6edb0513004dc3fe1ebf961955,6c5bdb6edb0513004dc3fe1ebf961952,205bdb6edb0513004dc3fe1ebf96195a,605bdb6edb0513004dc3fe1ebf961957,666b5f6edb0513004dc3fe1ebf9619e9,b0cb5b6edb0513004dc3fe1ebf9619f3</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>WorkFlow TodoTeka</name>
@@ -30,13 +30,13 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">914fad1edb0513004dc3fe1ebf961969</start>
+        <start display_value="Begin">e05bdb6edb0513004dc3fe1ebf961959</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>5d4fe91edb0513004dc3fe1ebf96199b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>evelyn</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:22:05</sys_updated_on>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>605bdb6edb0513004dc3fe1ebf961951</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 19:05:53</sys_updated_on>
         <table>x_177089_todoteka_solicitudes_todoteka</table>
         <timezone/>
         <validated>true</validated>
@@ -82,30 +82,30 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>594fe91edb0513004dc3fe1ebf96199d</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>e85bdb6edb0513004dc3fe1ebf96195a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="WorkFlow TodoTeka">5d4fe91edb0513004dc3fe1ebf96199b</workflow_version>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
         <x>628</x>
         <y>15</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=594fe91edb0513004dc3fe1ebf96199d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e85bdb6edb0513004dc3fe1ebf96195a"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>594fe91edb0513004dc3fe1ebf96199d</document_key>
+        <document_key>e85bdb6edb0513004dc3fe1ebf96195a</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>594fe91edb0513004dc3fe1ebf96199e</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>645bdb6edb0513004dc3fe1ebf96195b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>//while(current.state==1);&#13;
 &#13;
 answer = ifAProbado();&#13;
@@ -122,71 +122,71 @@ function ifAprobado() {&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>594fe91edb0513004dc3fe1ebf96199d</document_key>
+        <document_key>e85bdb6edb0513004dc3fe1ebf96195a</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>954fe91edb0513004dc3fe1ebf96199e</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>a05bdb6edb0513004dc3fe1ebf96195b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>0</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>594fe91edb0513004dc3fe1ebf96199d</document_key>
+        <document_key>e85bdb6edb0513004dc3fe1ebf96195a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>dd4fe91edb0513004dc3fe1ebf96199d</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>ec5bdb6edb0513004dc3fe1ebf96195a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>state=2^EQ</value>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>594fe91edb0513004dc3fe1ebf96199d</document_key>
+        <document_key>e85bdb6edb0513004dc3fe1ebf96195a</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>dd4fe91edb0513004dc3fe1ebf96199d</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>ec5bdb6edb0513004dc3fe1ebf96195a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>state=2^EQ</value>
         <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>594fe91edb0513004dc3fe1ebf96199d</document_key>
+        <document_key>e85bdb6edb0513004dc3fe1ebf96195a</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>954fe91edb0513004dc3fe1ebf96199e</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>a05bdb6edb0513004dc3fe1ebf96195b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>0</value>
         <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>594fe91edb0513004dc3fe1ebf96199d</document_key>
+        <document_key>e85bdb6edb0513004dc3fe1ebf96195a</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>594fe91edb0513004dc3fe1ebf96199e</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>645bdb6edb0513004dc3fe1ebf96195b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>//while(current.state==1);&#13;
 &#13;
 answer = ifAProbado();&#13;
@@ -202,7 +202,7 @@ function ifAprobado() {&#13;
         <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Aprobacion de solicitudes TodoTeka">594fe91edb0513004dc3fe1ebf96199d</activity>
+        <activity display_value="Aprobacion de solicitudes TodoTeka">e85bdb6edb0513004dc3fe1ebf96195a</activity>
         <condition>activity.result == 'yes'</condition>
         <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
         <condition_type>standard</condition_type>
@@ -216,14 +216,14 @@ function ifAprobado() {&#13;
         <short_description>La solicitud es aprobada</short_description>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>114fad1edb0513004dc3fe1ebf961964</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>e85bdb6edb0513004dc3fe1ebf96195b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
     </wf_condition>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Aprobacion de solicitudes TodoTeka">594fe91edb0513004dc3fe1ebf96199d</activity>
+        <activity display_value="Aprobacion de solicitudes TodoTeka">e85bdb6edb0513004dc3fe1ebf96195a</activity>
         <condition>activity.result == 'no'</condition>
         <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
         <condition_type>standard</condition_type>
@@ -237,11 +237,11 @@ function ifAprobado() {&#13;
         <short_description>La solicitud es rechazada</short_description>
         <skip_during_generate>true</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>9d4fad1edb0513004dc3fe1ebf961963</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>6c5bdb6edb0513004dc3fe1ebf96195b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -259,21 +259,21 @@ function ifAprobado() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>914fad1edb0513004dc3fe1ebf961969</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>e05bdb6edb0513004dc3fe1ebf961959</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="WorkFlow TodoTeka">5d4fe91edb0513004dc3fe1ebf96199b</workflow_version>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=914fad1edb0513004dc3fe1ebf961969"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e05bdb6edb0513004dc3fe1ebf961959"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">914fad1edb0513004dc3fe1ebf961969</activity>
+        <activity display_value="Begin">e05bdb6edb0513004dc3fe1ebf961959</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -287,11 +287,89 @@ function ifAprobado() {&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>d94fad1edb0513004dc3fe1ebf961969</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>a85bdb6edb0513004dc3fe1ebf961959</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>El usuario regreso el artículo, se cierra la solicitud</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:53:14</sys_created_on>
+        <sys_id>b0cb5b6edb0513004dc3fe1ebf9619f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:54:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
+        <x>846</x>
+        <y>541</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b0cb5b6edb0513004dc3fe1ebf9619f3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b0cb5b6edb0513004dc3fe1ebf9619f3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:53:14</sys_created_on>
+        <sys_id>bbdb5f6edb0513004dc3fe1ebf961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:53:14</sys_updated_on>
+        <value>state=4^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b0cb5b6edb0513004dc3fe1ebf9619f3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:53:14</sys_created_on>
+        <sys_id>bbdb5f6edb0513004dc3fe1ebf961993</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:53:14</sys_updated_on>
+        <value>state=4^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="El usuario regreso el artículo, se cierra la solicitud">b0cb5b6edb0513004dc3fe1ebf9619f3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:53:14</sys_created_on>
+        <sys_id>73db5f6edb0513004dc3fe1ebf961994</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:53:14</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -309,19 +387,239 @@ function ifAprobado() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>194fad1edb0513004dc3fe1ebf961964</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>205bdb6edb0513004dc3fe1ebf96195a</sys_id>
+        <sys_mod_count>6</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:53:46</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="WorkFlow TodoTeka">5d4fe91edb0513004dc3fe1ebf96199b</workflow_version>
-        <x>909</x>
-        <y>158</y>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
+        <x>743</x>
+        <y>670</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=194fad1edb0513004dc3fe1ebf961964"/>
+    <sys_variable_value action="delete_multiple" query="document_key=205bdb6edb0513004dc3fe1ebf96195a"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Esperando a que el usuario regrese el artículo</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:52:04</sys_created_on>
+        <sys_id>666b5f6edb0513004dc3fe1ebf9619e9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:52:19</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
+        <x>862</x>
+        <y>411</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=666b5f6edb0513004dc3fe1ebf9619e9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>666b5f6edb0513004dc3fe1ebf9619e9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:52:04</sys_created_on>
+        <sys_id>329b9b6edb0513004dc3fe1ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:52:04</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>666b5f6edb0513004dc3fe1ebf9619e9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:52:04</sys_created_on>
+        <sys_id>f29b9b6edb0513004dc3fe1ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:52:04</sys_updated_on>
+        <value>devuelto=true^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>666b5f6edb0513004dc3fe1ebf9619e9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:52:04</sys_created_on>
+        <sys_id>f29b9b6edb0513004dc3fe1ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:52:04</sys_updated_on>
+        <value>devuelto=true^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>666b5f6edb0513004dc3fe1ebf9619e9</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:52:04</sys_created_on>
+        <sys_id>329b9b6edb0513004dc3fe1ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:52:04</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Esperando a que el usuario regrese el artículo">666b5f6edb0513004dc3fe1ebf9619e9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:52:04</sys_created_on>
+        <sys_id>fa9b9b6edb0513004dc3fe1ebf9619de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:52:04</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Esperar a que el usuario tenga el artículo</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>6c5bdb6edb0513004dc3fe1ebf961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
+        <x>860</x>
+        <y>154</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=6c5bdb6edb0513004dc3fe1ebf961952"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6c5bdb6edb0513004dc3fe1ebf961952</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e05bdb6edb0513004dc3fe1ebf961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6c5bdb6edb0513004dc3fe1ebf961952</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e85bdb6edb0513004dc3fe1ebf961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>state=2^todoteka_articulo_entregado=true^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6c5bdb6edb0513004dc3fe1ebf961952</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e85bdb6edb0513004dc3fe1ebf961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>state=2^todoteka_articulo_entregado=true^EQ</value>
+        <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>6c5bdb6edb0513004dc3fe1ebf961952</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e05bdb6edb0513004dc3fe1ebf961953</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
+answer = true;&#13;
+</value>
+        <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Esperar a que el usuario tenga el artículo">6c5bdb6edb0513004dc3fe1ebf961952</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>605bdb6edb0513004dc3fe1ebf961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+    </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Wait for condition">d93a02ae0a0a0aa30077abad3fdac035</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -338,44 +636,44 @@ function ifAprobado() {&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>d54fad1edb0513004dc3fe1ebf961965</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>e05bdb6edb0513004dc3fe1ebf96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="WorkFlow TodoTeka">5d4fe91edb0513004dc3fe1ebf96199b</workflow_version>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
         <x>400</x>
         <y>15</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=d54fad1edb0513004dc3fe1ebf961965"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e05bdb6edb0513004dc3fe1ebf96195c"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d54fad1edb0513004dc3fe1ebf961965</document_key>
+        <document_key>e05bdb6edb0513004dc3fe1ebf96195c</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>9d4fad1edb0513004dc3fe1ebf961965</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>285b1f6edb0513004dc3fe1ebf9619ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>state=2^ORstate=3^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d54fad1edb0513004dc3fe1ebf961965</document_key>
+        <document_key>e05bdb6edb0513004dc3fe1ebf96195c</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>d94fad1edb0513004dc3fe1ebf961965</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>645bdb6edb0513004dc3fe1ebf96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
@@ -383,36 +681,36 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d54fad1edb0513004dc3fe1ebf961965</document_key>
+        <document_key>e05bdb6edb0513004dc3fe1ebf96195c</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>9d4fad1edb0513004dc3fe1ebf961965</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>285b1f6edb0513004dc3fe1ebf9619ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>state=2^ORstate=3^EQ</value>
         <variable display_value="">c35dc4cd0a0a0ba96248a70990c1ac54</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>d54fad1edb0513004dc3fe1ebf961965</document_key>
+        <document_key>e05bdb6edb0513004dc3fe1ebf96195c</document_key>
         <order>2</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>d94fad1edb0513004dc3fe1ebf961965</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>645bdb6edb0513004dc3fe1ebf96195c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
         <value>// Set the variable 'answer' to true or false to indicate if the condition has been met or not.&#13;
 answer = true;&#13;
 </value>
         <variable display_value="">c35debce0a0a0ba96248a709440cf31a</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Esperar respuesta del administrador">d54fad1edb0513004dc3fe1ebf961965</activity>
+        <activity display_value="Esperar respuesta del administrador">e05bdb6edb0513004dc3fe1ebf96195c</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -426,11 +724,11 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>154fad1edb0513004dc3fe1ebf961966</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>2c5b1f6edb0513004dc3fe1ebf9619ea</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
@@ -448,30 +746,30 @@ answer = true;&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>114fad1edb0513004dc3fe1ebf961968</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>605bdb6edb0513004dc3fe1ebf961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:46</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="WorkFlow TodoTeka">5d4fe91edb0513004dc3fe1ebf96199b</workflow_version>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
         <x>856</x>
         <y>15</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=114fad1edb0513004dc3fe1ebf961968"/>
+    <sys_variable_value action="delete_multiple" query="document_key=605bdb6edb0513004dc3fe1ebf961958"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>114fad1edb0513004dc3fe1ebf961968</document_key>
+        <document_key>605bdb6edb0513004dc3fe1ebf961958</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>194fad1edb0513004dc3fe1ebf961968</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>685bdb6edb0513004dc3fe1ebf961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 2&#13;
 	return gs.getUserName();&#13;
@@ -480,15 +778,15 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>114fad1edb0513004dc3fe1ebf961968</document_key>
+        <document_key>605bdb6edb0513004dc3fe1ebf961958</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>554fad1edb0513004dc3fe1ebf961968</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>a45bdb6edb0513004dc3fe1ebf961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 1&#13;
 	return current.number;&#13;
@@ -497,43 +795,43 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>114fad1edb0513004dc3fe1ebf961968</document_key>
+        <document_key>605bdb6edb0513004dc3fe1ebf961958</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>914fad1edb0513004dc3fe1ebf961968</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e05bdb6edb0513004dc3fe1ebf961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:46</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>1dd8e11adb0513004dc3fe1ebf96195e</value>
         <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>114fad1edb0513004dc3fe1ebf961968</document_key>
+        <document_key>605bdb6edb0513004dc3fe1ebf961958</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>914fad1edb0513004dc3fe1ebf961968</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e05bdb6edb0513004dc3fe1ebf961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:46</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>1dd8e11adb0513004dc3fe1ebf96195e</value>
         <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>114fad1edb0513004dc3fe1ebf961968</document_key>
+        <document_key>605bdb6edb0513004dc3fe1ebf961958</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>554fad1edb0513004dc3fe1ebf961968</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>a45bdb6edb0513004dc3fe1ebf961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 1&#13;
 	return current.number;&#13;
@@ -542,15 +840,15 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>114fad1edb0513004dc3fe1ebf961968</document_key>
+        <document_key>605bdb6edb0513004dc3fe1ebf961958</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>194fad1edb0513004dc3fe1ebf961968</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>685bdb6edb0513004dc3fe1ebf961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 2&#13;
 	return gs.getUserName();&#13;
@@ -558,7 +856,7 @@ answer = true;&#13;
         <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Notifiación a usuario de solicitud aprobada">114fad1edb0513004dc3fe1ebf961968</activity>
+        <activity display_value="Notifiación a usuario de solicitud aprobada">605bdb6edb0513004dc3fe1ebf961958</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -572,11 +870,11 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>1d4fad1edb0513004dc3fe1ebf961968</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>6c5bdb6edb0513004dc3fe1ebf961958</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
@@ -594,30 +892,61 @@ answer = true;&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>994fad1edb0513004dc3fe1ebf961966</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>ec5bdb6edb0513004dc3fe1ebf961955</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:53:50</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="WorkFlow TodoTeka">5d4fe91edb0513004dc3fe1ebf96199b</workflow_version>
-        <x>628</x>
-        <y>153</y>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
+        <x>599</x>
+        <y>208</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=994fad1edb0513004dc3fe1ebf961966"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ec5bdb6edb0513004dc3fe1ebf961955"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>994fad1edb0513004dc3fe1ebf961966</document_key>
+        <document_key>ec5bdb6edb0513004dc3fe1ebf961955</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>245bdb6edb0513004dc3fe1ebf961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return current.number;&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ec5bdb6edb0513004dc3fe1ebf961955</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>605bdb6edb0513004dc3fe1ebf961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>59c6e5d6db0513004dc3fe1ebf961942</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ec5bdb6edb0513004dc3fe1ebf961955</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>154fad1edb0513004dc3fe1ebf961967</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e45bdb6edb0513004dc3fe1ebf961956</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 2&#13;
 	return gs.getUserName();&#13;
@@ -626,15 +955,29 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>994fad1edb0513004dc3fe1ebf961966</document_key>
+        <document_key>ec5bdb6edb0513004dc3fe1ebf961955</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>605bdb6edb0513004dc3fe1ebf961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>59c6e5d6db0513004dc3fe1ebf961942</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ec5bdb6edb0513004dc3fe1ebf961955</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>514fad1edb0513004dc3fe1ebf961967</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>245bdb6edb0513004dc3fe1ebf961956</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 1&#13;
 	return current.number;&#13;
@@ -643,60 +986,15 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>994fad1edb0513004dc3fe1ebf961966</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>9d4fad1edb0513004dc3fe1ebf961966</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <value>59c6e5d6db0513004dc3fe1ebf961942</value>
-        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>994fad1edb0513004dc3fe1ebf961966</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>9d4fad1edb0513004dc3fe1ebf961966</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <value>59c6e5d6db0513004dc3fe1ebf961942</value>
-        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>994fad1edb0513004dc3fe1ebf961966</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>514fad1edb0513004dc3fe1ebf961967</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <value>(function() {&#13;
-	// return the value to use for Parameter 1&#13;
-	return current.number;&#13;
-}());</value>
-        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>994fad1edb0513004dc3fe1ebf961966</document_key>
+        <document_key>ec5bdb6edb0513004dc3fe1ebf961955</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>154fad1edb0513004dc3fe1ebf961967</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e45bdb6edb0513004dc3fe1ebf961956</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 2&#13;
 	return gs.getUserName();&#13;
@@ -704,7 +1002,7 @@ answer = true;&#13;
         <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Notificación a usuario de solicitud rechazada">994fad1edb0513004dc3fe1ebf961966</activity>
+        <activity display_value="Notificación a usuario de solicitud rechazada">ec5bdb6edb0513004dc3fe1ebf961955</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -718,11 +1016,11 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>994fad1edb0513004dc3fe1ebf961967</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e85bdb6edb0513004dc3fe1ebf961956</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Create Event">9f680b92c0a801640026553f665b429f</activity_definition>
@@ -740,30 +1038,61 @@ answer = true;&#13;
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>514fad1edb0513004dc3fe1ebf96196a</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>685bdb6edb0513004dc3fe1ebf961954</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="WorkFlow TodoTeka">5d4fe91edb0513004dc3fe1ebf96199b</workflow_version>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
         <x>171</x>
         <y>18</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=514fad1edb0513004dc3fe1ebf96196a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=685bdb6edb0513004dc3fe1ebf961954"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>514fad1edb0513004dc3fe1ebf96196a</document_key>
+        <document_key>685bdb6edb0513004dc3fe1ebf961954</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>205bdb6edb0513004dc3fe1ebf961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>(function() {&#13;
+	// return the value to use for Parameter 1&#13;
+	return current.number;&#13;
+}());</value>
+        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>685bdb6edb0513004dc3fe1ebf961954</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>6c5bdb6edb0513004dc3fe1ebf961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>00bd011adbc113004dc3fe1ebf961992</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>685bdb6edb0513004dc3fe1ebf961954</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>594fad1edb0513004dc3fe1ebf96196a</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e05bdb6edb0513004dc3fe1ebf961955</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 2&#13;
 	return gs.getUserName();&#13;
@@ -772,15 +1101,29 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>514fad1edb0513004dc3fe1ebf96196a</document_key>
+        <document_key>685bdb6edb0513004dc3fe1ebf961954</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>6c5bdb6edb0513004dc3fe1ebf961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>00bd011adbc113004dc3fe1ebf961992</value>
+        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>685bdb6edb0513004dc3fe1ebf961954</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>954fad1edb0513004dc3fe1ebf96196a</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>205bdb6edb0513004dc3fe1ebf961955</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 1&#13;
 	return current.number;&#13;
@@ -789,60 +1132,15 @@ answer = true;&#13;
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>514fad1edb0513004dc3fe1ebf96196a</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>d14fad1edb0513004dc3fe1ebf96196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <value>00bd011adbc113004dc3fe1ebf961992</value>
-        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>514fad1edb0513004dc3fe1ebf96196a</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>d14fad1edb0513004dc3fe1ebf96196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <value>00bd011adbc113004dc3fe1ebf961992</value>
-        <variable display_value="">c35dcc7a0a0a0ba96248a70926fa68b5</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>514fad1edb0513004dc3fe1ebf96196a</document_key>
-        <order>200</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>954fad1edb0513004dc3fe1ebf96196a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <value>(function() {&#13;
-	// return the value to use for Parameter 1&#13;
-	return current.number;&#13;
-}());</value>
-        <variable display_value="">c35dd0310a0a0ba96248a70936d276b3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>514fad1edb0513004dc3fe1ebf96196a</document_key>
+        <document_key>685bdb6edb0513004dc3fe1ebf961954</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>594fad1edb0513004dc3fe1ebf96196a</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e05bdb6edb0513004dc3fe1ebf961955</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
         <value>(function() {&#13;
 	// return the value to use for Parameter 2&#13;
 	return gs.getUserName();&#13;
@@ -850,7 +1148,7 @@ answer = true;&#13;
         <variable display_value="">c35dd3ef0a0a0ba96248a70947e35325</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Nueva Solicitud Notificación">514fad1edb0513004dc3fe1ebf96196a</activity>
+        <activity display_value="Nueva Solicitud Notificación">685bdb6edb0513004dc3fe1ebf961954</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -864,102 +1162,240 @@ answer = true;&#13;
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>5d4fad1edb0513004dc3fe1ebf96196a</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>685bdb6edb0513004dc3fe1ebf961955</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Reestablecer fecha de entrega/Establecer fecha de devolución</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>605bdb6edb0513004dc3fe1ebf961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
+        <x>860</x>
+        <y>292</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=605bdb6edb0513004dc3fe1ebf961957"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>605bdb6edb0513004dc3fe1ebf961957</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>645bdb6edb0513004dc3fe1ebf961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>fechas();&#13;
+&#13;
+function fechas(){&#13;
+	var rightNow = new GlideDateTime();&#13;
+&#13;
+	current.work_start = rightNow.getDisplayValue();&#13;
+	rightNow.addDaysLocalTime(current.getValue("dias"));&#13;
+	current.work_end = rightNow.getDisplayValue();&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>605bdb6edb0513004dc3fe1ebf961957</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>645bdb6edb0513004dc3fe1ebf961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <value>fechas();&#13;
+&#13;
+function fechas(){&#13;
+	var rightNow = new GlideDateTime();&#13;
+&#13;
+	current.work_start = rightNow.getDisplayValue();&#13;
+	rightNow.addDaysLocalTime(current.getValue("dias"));&#13;
+	current.work_end = rightNow.getDisplayValue();&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Reestablecer fecha de entrega/Establecer fecha de devolución">605bdb6edb0513004dc3fe1ebf961957</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>e85bdb6edb0513004dc3fe1ebf961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Aprobado">114fad1edb0513004dc3fe1ebf961964</condition>
-        <from display_value="Aprobacion de solicitudes TodoTeka">594fe91edb0513004dc3fe1ebf96199d</from>
+        <condition display_value="Always">73db5f6edb0513004dc3fe1ebf961994</condition>
+        <from display_value="El usuario regreso el artículo, se cierra la solicitud">b0cb5b6edb0513004dc3fe1ebf9619f3</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>114fad1edb0513004dc3fe1ebf96196c</sys_id>
+        <sys_created_on>2018-03-28 01:53:21</sys_created_on>
+        <sys_id>01eb9b6edb0513004dc3fe1ebf96199f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <to display_value="Notifiación a usuario de solicitud aprobada">114fad1edb0513004dc3fe1ebf961968</to>
+        <sys_updated_on>2018-03-28 01:53:21</sys_updated_on>
+        <to display_value="End">205bdb6edb0513004dc3fe1ebf96195a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">d94fad1edb0513004dc3fe1ebf961969</condition>
-        <from display_value="Begin">914fad1edb0513004dc3fe1ebf961969</from>
+        <condition display_value="Always">e85bdb6edb0513004dc3fe1ebf961957</condition>
+        <from display_value="Reestablecer fecha de entrega/Establecer fecha de devolución">605bdb6edb0513004dc3fe1ebf961957</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>1d4fad1edb0513004dc3fe1ebf96196c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>205b1f6edb0513004dc3fe1ebf9619ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <to display_value="Nueva Solicitud Notificación">514fad1edb0513004dc3fe1ebf96196a</to>
+        <sys_updated_on>2018-03-28 01:52:08</sys_updated_on>
+        <to display_value="Esperando a que el usuario regrese el artículo">666b5f6edb0513004dc3fe1ebf9619e9</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">154fad1edb0513004dc3fe1ebf961966</condition>
-        <from display_value="Esperar respuesta del administrador">d54fad1edb0513004dc3fe1ebf961965</from>
+        <condition display_value="Rechazada">6c5bdb6edb0513004dc3fe1ebf96195b</condition>
+        <from display_value="Aprobacion de solicitudes TodoTeka">e85bdb6edb0513004dc3fe1ebf96195a</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>594fad1edb0513004dc3fe1ebf96196c</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>245b1f6edb0513004dc3fe1ebf9619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <to display_value="Aprobacion de solicitudes TodoTeka">594fe91edb0513004dc3fe1ebf96199d</to>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+        <to display_value="Notificación a usuario de solicitud rechazada">ec5bdb6edb0513004dc3fe1ebf961955</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">1d4fad1edb0513004dc3fe1ebf961968</condition>
-        <from display_value="Notifiación a usuario de solicitud aprobada">114fad1edb0513004dc3fe1ebf961968</from>
+        <condition display_value="Always">fa9b9b6edb0513004dc3fe1ebf9619de</condition>
+        <from display_value="Esperando a que el usuario regrese el artículo">666b5f6edb0513004dc3fe1ebf9619e9</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>954fad1edb0513004dc3fe1ebf96196c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2018-03-28 01:52:08</sys_created_on>
+        <sys_id>2b9b5b6edb0513004dc3fe1ebf9619c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <to display_value="End">194fad1edb0513004dc3fe1ebf961964</to>
+        <sys_updated_on>2018-03-28 01:53:21</sys_updated_on>
+        <to display_value="El usuario regreso el artículo, se cierra la solicitud">b0cb5b6edb0513004dc3fe1ebf9619f3</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Rechazada">9d4fad1edb0513004dc3fe1ebf961963</condition>
-        <from display_value="Aprobacion de solicitudes TodoTeka">594fe91edb0513004dc3fe1ebf96199d</from>
+        <condition display_value="Always">2c5b1f6edb0513004dc3fe1ebf9619ea</condition>
+        <from display_value="Esperar respuesta del administrador">e05bdb6edb0513004dc3fe1ebf96195c</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>9d4fad1edb0513004dc3fe1ebf96196b</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>6c5b1f6edb0513004dc3fe1ebf9619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <to display_value="Notificación a usuario de solicitud rechazada">994fad1edb0513004dc3fe1ebf961966</to>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+        <to display_value="Aprobacion de solicitudes TodoTeka">e85bdb6edb0513004dc3fe1ebf96195a</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">5d4fad1edb0513004dc3fe1ebf96196a</condition>
-        <from display_value="Nueva Solicitud Notificación">514fad1edb0513004dc3fe1ebf96196a</from>
+        <condition display_value="Aprobado">e85bdb6edb0513004dc3fe1ebf96195b</condition>
+        <from display_value="Aprobacion de solicitudes TodoTeka">e85bdb6edb0513004dc3fe1ebf96195a</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>d14fad1edb0513004dc3fe1ebf96196c</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>a05b1f6edb0513004dc3fe1ebf9619ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <to display_value="Esperar respuesta del administrador">d54fad1edb0513004dc3fe1ebf961965</to>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+        <to display_value="Notifiación a usuario de solicitud aprobada">605bdb6edb0513004dc3fe1ebf961958</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">994fad1edb0513004dc3fe1ebf961967</condition>
-        <from display_value="Notificación a usuario de solicitud rechazada">994fad1edb0513004dc3fe1ebf961966</from>
+        <condition display_value="Always">685bdb6edb0513004dc3fe1ebf961955</condition>
+        <from display_value="Nueva Solicitud Notificación">685bdb6edb0513004dc3fe1ebf961954</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>dd4fad1edb0513004dc3fe1ebf96196c</sys_id>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>a45b1f6edb0513004dc3fe1ebf9619ed</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <to display_value="End">194fad1edb0513004dc3fe1ebf961964</to>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+        <to display_value="Esperar respuesta del administrador">e05bdb6edb0513004dc3fe1ebf96195c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">e85bdb6edb0513004dc3fe1ebf961956</condition>
+        <from display_value="Notificación a usuario de solicitud rechazada">ec5bdb6edb0513004dc3fe1ebf961955</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>a85b1f6edb0513004dc3fe1ebf9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+        <to display_value="End">205bdb6edb0513004dc3fe1ebf96195a</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a85bdb6edb0513004dc3fe1ebf961959</condition>
+        <from display_value="Begin">e05bdb6edb0513004dc3fe1ebf961959</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>e05b1f6edb0513004dc3fe1ebf9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+        <to display_value="Nueva Solicitud Notificación">685bdb6edb0513004dc3fe1ebf961954</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6c5bdb6edb0513004dc3fe1ebf961958</condition>
+        <from display_value="Notifiación a usuario de solicitud aprobada">605bdb6edb0513004dc3fe1ebf961958</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>e45b1f6edb0513004dc3fe1ebf9619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+        <to display_value="Esperar a que el usuario tenga el artículo">6c5bdb6edb0513004dc3fe1ebf961952</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">605bdb6edb0513004dc3fe1ebf961954</condition>
+        <from display_value="Esperar a que el usuario tenga el artículo">6c5bdb6edb0513004dc3fe1ebf961952</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 01:50:50</sys_created_on>
+        <sys_id>ec5b1f6edb0513004dc3fe1ebf9619eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 01:50:50</sys_updated_on>
+        <to display_value="Reestablecer fecha de entrega/Establecer fecha de devolución">605bdb6edb0513004dc3fe1ebf961957</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-03-26 23:20:16</sys_created_on>
-        <sys_id>114fe91edb0513004dc3fe1ebf96199c</sys_id>
+        <sys_created_on>2018-03-28 01:50:49</sys_created_on>
+        <sys_id>245bdb6edb0513004dc3fe1ebf961951</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-26 23:20:16</sys_updated_on>
-        <workflow_version display_value="WorkFlow TodoTeka">5d4fe91edb0513004dc3fe1ebf96199b</workflow_version>
+        <sys_updated_on>2018-03-28 01:50:49</sys_updated_on>
+        <workflow_version display_value="WorkFlow TodoTeka">605bdb6edb0513004dc3fe1ebf961951</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=3edb5816db4113004dc3fe1ebf961906^sys_id!=5d4fe91edb0513004dc3fe1ebf96199b">
+    <wf_workflow_version action="update_multiple" query="workflow=3edb5816db4113004dc3fe1ebf961906^sys_id!=605bdb6edb0513004dc3fe1ebf961951">
         <published>false</published>
     </wf_workflow_version>
 </record_update>

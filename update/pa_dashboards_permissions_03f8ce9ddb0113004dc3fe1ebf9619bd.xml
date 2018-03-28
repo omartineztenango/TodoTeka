@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="Open Changes Reports">ac546063d7010200b96d45a3ce6103e3</dashboard>
+        <dashboard display_value="">ac546063d7010200b96d45a3ce6103e3</dashboard>
         <delete>false</delete>
         <group/>
         <identity>pa_viewer</identity>

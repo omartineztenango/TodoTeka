@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>todoteka_articulo_entregado</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-28 19:41:36</sys_created_on>
+        <sys_id>1b005fbadb4113004dc3fe1ebf961926</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>todoteka_articulo_entregado</sys_name>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sys_ui_policy_action_1b005fbadb4113004dc3fe1ebf961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-28 20:27:35</sys_updated_on>
+        <table>x_177089_todoteka_solicitudes_todoteka</table>
+        <ui_policy display_value="(usurios mobile)Establece los campos nuevo, artículo entregado y artículo regresado como solo lectura">3aae03badb4113004dc3fe1ebf96195b</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

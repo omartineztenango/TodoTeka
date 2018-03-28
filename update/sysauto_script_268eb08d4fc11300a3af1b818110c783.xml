@@ -17,24 +17,29 @@
 var rightNow = new GlideDateTime();
 var devolucionesAtrasadas = new GlideRecord('x_177089_todoteka_solicitudes_todoteka');
 
-//Busca reportes atrasados
+/*Busca reportes atrasados, estará totalmente habilitado cuando se le agregen los campos de estado correspondientes a los items del catalogo TodoTeka*/
 devolucionesAtrasadas.addQuery('work_end', '<=', rightNow);
-devolucionesAtrasadas.addQuery('state',5);//las solicitudes estan en prestamo 
+devolucionesAtrasadas.addQuery('state',2);//las solicitudes estan en aprobadas
+devolucionesAtrasadas.addQuery('todoteka_articulo_entregado',true);//estan en préstamo
+devolucionesAtrasadas.addQuery('devuelto',false);//No han sido devueltas
 
 devolucionesAtrasadas.query();
 
-//Pasa los reportes atrasados al estado 6
+//Pasa los reportes atrasados al estado 6(extraviado) manda notificacion a usuario
 while(devolucionesAtrasadas.next()) {
 	gs.addInfoMessage("Los siguientes prestamos están atrasados: " + devolucionesAtrasadas.number);
-	devolucionesAtrasadas.state = 6;
-	devolucionesAtrasadas.update();
+	gs.eventQueue('x_177089_todoteka.SolicitudAtrasada', devolucionesAtrasadas, devolucionesAtrasadas.number, gs.getUserName());
+	//devolucionesAtrasadas.state = 6;
+	//devolucionesAtrasadas.update();
 }
 
 //Busca los reportes que estaran atrasados entre las 9am y 6pm
 
 devolucionesAtrasadas.addQuery('work_end', '>=', rightNow);
 devolucionesAtrasadas.addQuery('work_end', '<', gs.hoursAgo(-9));
-devolucionesAtrasadas.addQuery('state',5);
+devolucionesAtrasadas.addQuery('state',2);
+devolucionesAtrasadas.addQuery('todoteka_articulo_entregado',true);//estan en préstamo
+devolucionesAtrasadas.addQuery('devuelto',false);//No han sido devueltos
 devolucionesAtrasadas.query();
 
 while(devolucionesAtrasadas.next()){
@@ -44,14 +49,14 @@ while(devolucionesAtrasadas.next()){
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-22 22:44:02</sys_created_on>
         <sys_id>268eb08d4fc11300a3af1b818110c783</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>ScheduleScriptDevolucionesAtrasadas</sys_name>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
         <sys_policy/>
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sysauto_script_268eb08d4fc11300a3af1b818110c783</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-22 23:41:12</sys_updated_on>
+        <sys_updated_on>2018-03-28 00:22:01</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

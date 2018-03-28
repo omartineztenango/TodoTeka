@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="seccion" section_id="e2c84fe2db0513004dc3fe1ebf961930" sys_domain="global" table="x_177089_todoteka_solicitudes_todoteka" version="3" view="usuarios">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>dcba3abedb0113004dc3fe1ebf961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="ProcessFlow Solicitudes Todoteka">635a4a9edb4513004dc3fe1ebf961953</sys_ui_formatter>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>54ba3abedb0113004dc3fe1ebf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>d4ba3abedb0113004dc3fe1ebf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>58ba3abedb0113004dc3fe1ebf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>articulo</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>d8ba3abedb0113004dc3fe1ebf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>todoteka_articulo_entregado</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>5cba3abedb0113004dc3fe1ebf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>dcba3abedb0113004dc3fe1ebf961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_start</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>50ba3abedb0113004dc3fe1ebf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dias</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>d0ba3abedb0113004dc3fe1ebf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_end</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>54ba3abedb0113004dc3fe1ebf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>devuelto</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>d4ba3abedb0113004dc3fe1ebf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>58ba3abedb0113004dc3fe1ebf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>d8ba3abedb0113004dc3fe1ebf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 18:06:44</sys_created_on>
+            <sys_id>5cba3abedb0113004dc3fe1ebf961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="seccion" display_value="seccion" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="22c84fe2db0513004dc3fe1ebf96192d">e2c84fe2db0513004dc3fe1ebf961930</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 18:06:44</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>seccion</caption>
+            <header>false</header>
+            <name>x_177089_todoteka_solicitudes_todoteka</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-03-28 00:29:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2c84fe2db0513004dc3fe1ebf961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>seccion</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+            <sys_update_name>sys_ui_section_e2c84fe2db0513004dc3fe1ebf961930</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-03-28 00:29:52</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="usuarios" name="usuarios">22c84fe2db0513004dc3fe1ebf96192d</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

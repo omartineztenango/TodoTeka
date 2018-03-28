@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
-    <element extends="task" label="Tareas" max_length="40" name="x_177089_todoteka_tareas_usuarios" type="collection"/>
-</database>

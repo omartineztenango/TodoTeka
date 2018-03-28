@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="pa_dashboards_permissions">
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
-        <dashboard display_value="Change Premium">767bcfebeb7302001e68286b1206fe1f</dashboard>
+        <dashboard display_value="">767bcfebeb7302001e68286b1206fe1f</dashboard>
         <delete>false</delete>
         <group/>
         <identity>pa_contributor</identity>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_177089_todoteka_solicitudes_todoteka">state=2^todoteka_articulo_entregado=false^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="false" field="todoteka_articulo_entregado" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Entrega del artículo</label>
+        <name>entregar articulo </name>
+        <order>20</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-03-27 19:50:11</sys_created_on>
+        <sys_id>52a806a2db8113004dc3fe1ebf96196e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>entregar articulo </sys_name>
+        <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
+        <sys_update_name>sys_process_flow_52a806a2db8113004dc3fe1ebf96196e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-03-27 20:14:24</sys_updated_on>
+        <table>x_177089_todoteka_solicitudes_todoteka</table>
+    </sys_process_flow>
+</record_update>
