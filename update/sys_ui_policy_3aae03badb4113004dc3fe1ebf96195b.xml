@@ -10,7 +10,7 @@
         <model_table/>
         <on_load>true</on_load>
         <order>50</order>
-        <reverse_if_false>true</reverse_if_false>
+        <reverse_if_false>false</reverse_if_false>
         <run_scripts>false</run_scripts>
         <script_false><![CDATA[function onCondition() {
 }]]></script_false>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3aae03badb4113004dc3fe1ebf96195b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>(usurios mobile)Establece los campos nuevo, artículo entregado y artículo regresado como solo lectura</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sys_ui_policy_3aae03badb4113004dc3fe1ebf96195b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-28 20:28:14</sys_updated_on>
+        <sys_updated_on>2018-03-28 21:28:30</sys_updated_on>
         <table>x_177089_todoteka_solicitudes_todoteka</table>
         <ui_type>1</ui_type>
         <view display_value="mobil" name="mobil">mobil</view>

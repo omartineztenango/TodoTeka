@@ -3,7 +3,7 @@
     <pa_dashboards_permissions action="INSERT_OR_UPDATE">
         <dashboard display_value="TodoTeka">aaf8469ddb0113004dc3fe1ebf96195b</dashboard>
         <delete>false</delete>
-        <group display_value="TodoTeka administradores" name="TodoTeka administradores">f6d7f1aedb0113004dc3fe1ebf96194d</group>
+        <group display_value="">f6d7f1aedb0113004dc3fe1ebf96194d</group>
         <identity>3dd4abaedb3013004dc3fe1ebf961966</identity>
         <read>true</read>
         <role/>

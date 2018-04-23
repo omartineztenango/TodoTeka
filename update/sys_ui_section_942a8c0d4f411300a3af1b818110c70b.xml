@@ -9,7 +9,7 @@
             <sys_id>68649699db4113004dc3fe1ebf961926</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Información básica" display_value="Información básica" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">942a8c0d4f411300a3af1b818110c70b</sys_ui_section>
+            <sys_ui_section caption="Información básica" display_value="Información básica" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">942a8c0d4f411300a3af1b818110c70b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-03-23 23:28:29</sys_updated_on>
             <sys_user/>
@@ -23,7 +23,7 @@
             <sys_id>20649699db4113004dc3fe1ebf961927</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Información básica" display_value="Información básica" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="6c0d7162b92013006517ce7df7ee4673">942a8c0d4f411300a3af1b818110c70b</sys_ui_section>
+            <sys_ui_section caption="Información básica" display_value="Información básica" name="x_177089_todoteka_solicitudes_todoteka" sys_domain="global" view="a1717272791203006517636e4f534971">942a8c0d4f411300a3af1b818110c70b</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-03-23 23:28:29</sys_updated_on>
             <sys_user/>
@@ -51,7 +51,7 @@
             <sys_updated_on>2018-03-22 19:12:34</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Mobile" name="Mobile">6c0d7162b92013006517ce7df7ee4673</view>
+            <view display_value="Mobile" name="Mobile">a1717272791203006517636e4f534971</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

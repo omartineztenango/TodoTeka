@@ -17,7 +17,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-03-28 20:08:58</sys_updated_on>
         <table>x_177089_todoteka_solicitudes_todoteka</table>
-        <ui_policy display_value="(usurios desktop)Establece los campos nuevo, artículo entregado y artículo regresado como solo lectura">b056db7edb4113004dc3fe1ebf961912</ui_policy>
+        <ui_policy display_value="(usuarios desktop)Establece los campos nuevo, artículo entregado y artículo regresado como solo lectura">b056db7edb4113004dc3fe1ebf961912</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

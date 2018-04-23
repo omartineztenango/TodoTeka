@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Solicitudes TodoTeka" max_length="40" name="x_177089_todoteka_solicitudes_todoteka" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="Solicitudes TodoTeka" max_length="40" name="x_177089_todoteka_solicitudes_todoteka" type="collection">
         <element label="Artículo" mandatory="true" max_length="32" name="articulo" reference="sc_cat_item" type="reference"/>
         <element label="Artículo regresado" max_length="40" name="devuelto" type="boolean"/>
         <element choice="3" default="1" label="Días" mandatory="true" max_length="40" name="dias" type="integer">

@@ -4,7 +4,8 @@
         <action_insert>false</action_insert>
         <action_update>true</action_update>
         <active>true</active>
-        <advanced_condition/>
+        <advanced_condition><![CDATA[//La condicion Opened is me es para que cuando el administrador haga un comentario no se mande la notificacion
+answer = true;]]></advanced_condition>
         <affected_field_on_event/>
         <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
         <collection>x_177089_todoteka_solicitudes_todoteka</collection>
@@ -47,7 +48,7 @@
         <order>100</order>
         <push_message_only>true</push_message_only>
         <recipient_fields/>
-        <recipient_groups name="TodoTeka administradores">f6d7f1aedb0113004dc3fe1ebf96194d</recipient_groups>
+        <recipient_groups name="Administradores TodoTeka">6bb274cf4f301300a3af1b818110c7b0</recipient_groups>
         <recipient_users/>
         <reply_to/>
         <send_self>true</send_self>
@@ -61,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05ea58494f811300a3af1b818110c7ef</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>ActivityUser</sys_name>
         <sys_overrides/>
         <sys_package display_value="TodoTeka" source="x_177089_todoteka">4c116c034f301300a3af1b818110c76b</sys_package>
@@ -69,7 +70,7 @@
         <sys_scope display_value="TodoTeka">4c116c034f301300a3af1b818110c76b</sys_scope>
         <sys_update_name>sysevent_email_action_05ea58494f811300a3af1b818110c7ef</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-27 19:13:33</sys_updated_on>
+        <sys_updated_on>2018-03-28 21:58:43</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
